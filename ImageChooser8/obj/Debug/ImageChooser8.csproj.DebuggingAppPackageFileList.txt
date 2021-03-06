@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\ImageChooser8Manifest.xml
+C:\Users\jcarreno\source\repos\Imagechooser8\ImageChooser8\bin\Debug\ImageChooser8.debugapp

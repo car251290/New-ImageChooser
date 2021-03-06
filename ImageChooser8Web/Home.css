@@ -1,0 +1,253 @@
+﻿/* Page-specific styling */
+body {
+    margin: 0 0 60px; /* bottom = footer height */
+    background: white;
+    font-family: Segoe UI, Segoe UI, serif;
+}
+/* footer height */
+* {
+    box-sizing: border-box;
+}
+
+/* nav top bar */
+.navbar2 {
+    display: inline-block;
+    font-size: 13px;
+    border: none;
+    padding: 13px 17px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    height: 39px;
+    background: #f3f2f1;
+}
+/* nav top bar */
+.navbar {
+    display: inline-block;
+    border-color: #c8c6c4;
+    background: #f3f2f1;
+    height: 39px;
+    width: 360px;
+}
+
+/* Button of the NavBar  */
+    .navbar2:hover {
+        background-color: #c8c6c4;
+    }
+
+/*Search Button */
+.searchButton {
+    background-color: #484644
+}
+/*Search icon and the bar to write the letter and the style */
+#myinput {
+    background-image: url('./Images/icons8search-24.png');
+    background-position: 11px 13px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 18px 14px 38px;
+    border: 1px solid #ddd;
+    margin-bottom: .7px;
+}
+/* search bar animation  css */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: .7px solid #e1dfdd;
+    float: left;
+    width: 90%;
+    background: #ffffff;
+}
+/* search bar css animation of the image */
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: gray;
+    font-size: 12px;
+    border: .5px solid #e1dfdd;
+    border-left: none;
+    cursor: pointer;
+}
+
+    form.example button:hover {
+        background: #ffffff;
+        font-size: 12px;
+    }
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* scrollbar icon  */
+.clickable {
+    cursor: pointer;
+    height: 35px;
+    width: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+/* scrollbar */
+#content {
+    display: inline-block;
+    height: 100%;
+    min-width: calc(190px *5);
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    transition: all .6s;
+}
+/* button style in the class  */
+.mainViewer {
+    max-width: 350px;
+    width: 350px;
+    height: 38px;
+    overflow: hidden;
+    display: inline-block;
+    /* New change background  */
+    background: #c8c6c4;
+    padding-left:3px;
+}
+
+#myDIV2 {  
+    display:none;
+}
+
+/* using the button and filter the images so it can apper  */
+.filterDiv {
+    float: inherit;
+    background-color: #2196F3;
+    margin: 2px;
+    display: none;
+}
+
+/* clickable */
+
+.clickable {
+    cursor: pointer;
+}
+
+/* New scroll left bar */
+show {
+    display: inline-block;
+}
+/* container of the button for make the scroll go left and right */
+.container {
+    overflow: hidden;
+}
+
+/* Column of the images */
+.column {
+    padding: 2px;
+    width: 33.33%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+img {
+    max-height: 100px;
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+  
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+.row {
+    display: flex;
+    padding: 1px;
+}
+
+/* mynew one image container */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the buttons */
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 21px;
+    width: 62px;
+    background-color: #c8c6c4;
+    color: black;
+    /* Style the buttons */
+    justify-content: center;
+}
+    .btn:hover {
+        background-color: #c8c6c4;
+    }
+    
+    /* Add a dark background to the active button */
+    .btn.active {
+        background-color: #c8c6c4;
+    }
+
+/* New Arrow */
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 20.5rem;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+  
+/* Arrow of the Button left and Right */
+.arrowbtn {
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    cursor: pointer;
+    background-color: #c8c6c4;
+    font-size: 14px;
+    cursor: pointer;
+}
+.arrowbtn2 {
+    border: none;
+    outline: none;
+    padding: 9px 8px;
+    cursor: pointer;
+    background-color: #c8c6c4;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+/* Medium devices (landscape tablets, 400px and up) */
+@media only screen and (min-width: 400px) {
+    .navbar {
+        width: 100%;
+        font-size: 20px;
+       letter-spacing: 3px;
+
+    }
+}
+/* Medium devices (landscape tablets, 400x and up) */
+@media only screen and (min-width: 350px) {
+    .pagination, .arrowbtn, .arrowbtn2 {
+        width: 100%;
+        
+    }
+}
+
+
+@media only screen and (min-width: 350px) {
+    .mainViewer {
+        width: 100%;
+    }
+}

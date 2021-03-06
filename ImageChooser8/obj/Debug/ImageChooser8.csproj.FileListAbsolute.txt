@@ -1,0 +1,3 @@
+C:\Users\jcarreno\source\repos\Imagechooser8\ImageChooser8\obj\Debug\ImageChooser8.csproj.CoreCompileInputs.cache
+C:\Users\jcarreno\source\repos\ImageChooser8\ImageChooser8\obj\Debug\ImageChooser8.csprojAssemblyReference.cache
+C:\Users\jcarreno\source\repos\Imagechooser8\ImageChooser8\bin\Debug\ImageChooser8.dll.config
