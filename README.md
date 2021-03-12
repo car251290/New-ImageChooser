@@ -6,13 +6,13 @@ The work Experencie I am using is in the JavaScript in this moment I am updating
 
 # The Project with my experience in Javascript
 
-This project was one of the first coding experiences with Web application name( Add-ins) using Visual Studio and the language of Javascript, HTML and CSS for making an Array of images and display images (JPG) using simple selection double click in the document Word.
+This project was one of the first coding experiences with Web application name( Add-ins) using Visual Studio and the language of Javascript, HTML and CSS and addinng the backend code using C#, making an Array of images and display images (JPG) using simple selection double click in the document Word.
 Also, I use the CSS and the HTML for making the design of the Add-in the best way as possible, for the user to make the selection easier.
 
 Every subject has an Array of images that will be displayed in a table for making the display I made a function for getting the call back function of the database of the images that are stored in the URL.
 
 # New Image chooser
-as word has improve the experence the user select the icons, I am makinng this web application to deplayment easier for everyone I improve the code to make it easier as possible.
+as word has improve the experence the user select the icons, I am makinng this web application to deploy for everyone I improve the code to make it easier as possible.
 
 # Javascript function for using the URL and display the images
 I made to select image in a sort way to getting better understanding how to build it.
