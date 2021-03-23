@@ -41,7 +41,7 @@ I making easier this application too also I change the looking because can be ea
 
     }
 
-# CSS 
+## CSS 
 # This is part of my search bar I use for creating a search bar for an easy looking of the Images in the Add-in
 
 # search bar 
@@ -85,7 +85,7 @@ I use a <script> for the accion of the search bar and I put the code in the HTML
 
         }
         
-        ## The new Arrow function and the display images with a Button in the Tab 
+        ##The new Arrow function and the display images with a Button in the Tab 
         
           function Arrow() {
 
@@ -116,7 +116,7 @@ I use a <script> for the accion of the search bar and I put the code in the HTML
 
         }
 
-//Card images function filter
+# Card images function filter
         filterSelection("All")
         function filterSelection(c) {
           // Button();
