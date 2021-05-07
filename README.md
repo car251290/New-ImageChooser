@@ -41,22 +41,7 @@ I making easier this application too also I change the looking because can be ea
 
     }
 
-## CSS 
-# This is part of my search bar I use for creating a search bar for an easy looking of the Images in the Add-in
 
-# search bar 
-.search {
-    display: block;
-    float: left;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    width: 120%;
-    border: 35px solid #e1dfdd;
-    font-size: 18px;
-    text-align: center;
-    padding: 14px 20px 14px 40px;
-    margin-bottom: 12px;
-}
 # The Html for the selection 
 the filter and how to make it work in the 3 different tables, where there are showing the images.
 # Html 
