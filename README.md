@@ -22,6 +22,7 @@ to get database storeted in Sharepoint
 I making easier this application too also I change the looking because can be easier for the user.
 
    # Function for display the imagine in the addin
+   
     function displayimage() {
 
         // array of Strings of objects to display the image.
@@ -156,14 +157,5 @@ I use a <script> for the accion of the search bar and I put the code in the HTML
 
     </script>
     
+   
     
-    # The container of the image, are in a <div>
-    
-    <div>
-        <table align="right" style="width:60%"> <tr style="height:.5px"><td id="table">Technology-Equipment</td></tr> </table>
-
-        <table class="myimage-container" align="right" style="width:60%">
-
-            <tr class="table" style="height:10px"><td></td></tr>
-        </table>
-    </div>
